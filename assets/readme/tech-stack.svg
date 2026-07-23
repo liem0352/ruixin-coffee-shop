@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" role="img" aria-labelledby="stackTitle stackDesc">
+  <title id="stackTitle">技术栈 - 7 类选型分层</title>
+  <desc id="stackDesc">瑞鑫咖啡店管理系统技术栈分层:框架 Vue 3.5 / 构建 Vite 6 / 状态 Pinia / 路由 Vue Router 4 / UI Vant 4 / HTTP Axios / 样式 Sass / 代码风格 Prettier。</desc>
+
+  <!-- Canvas -->
+  <rect x="0" y="0" width="1200" height="200" rx="14" fill="#2A1F17"/>
+
+  <!-- Header -->
+  <text x="48" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#B8651B">TECH STACK</text>
+  <text x="48" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#EDE0CC">7 类选型 · 移动端 SPA 基础设施</text>
+
+  <!-- 7 cards, 152w x 100h, gap 8, start x=48 -->
+  <!-- Total: 7*152 + 6*8 = 1064 + 48*2 = 1160, ok -->
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+    <!-- Card 1: 框架 -->
+    <g transform="translate(48 90)">
+      <rect x="0" y="0" width="152" height="100" rx="12" fill="#B8651B" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#1A1410">FRAME</text>
+      <text x="14" y="56" font-size="22" font-weight="700" fill="#1A1410">Vue 3.5</text>
+      <text x="14" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#2A1F17">SPA · 组合式 API</text>
+    </g>
+
+    <!-- Card 2: 构建 -->
+    <g transform="translate(208 90)">
+      <rect x="0" y="0" width="152" height="100" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">BUILD</text>
+      <text x="14" y="56" font-size="22" font-weight="700" fill="#EDE0CC">Vite 6</text>
+      <text x="14" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">ESM dev server</text>
+    </g>
+
+    <!-- Card 3: 状态 -->
+    <g transform="translate(368 90)">
+      <rect x="0" y="0" width="152" height="100" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">STATE</text>
+      <text x="14" y="56" font-size="22" font-weight="700" fill="#EDE0CC">Pinia</text>
+      <text x="14" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">stores/counter.js</text>
+    </g>
+
+    <!-- Card 4: 路由 -->
+    <g transform="translate(528 90)">
+      <rect x="0" y="0" width="152" height="100" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">ROUTER</text>
+      <text x="14" y="56" font-size="22" font-weight="700" fill="#EDE0CC">Router 4</text>
+      <text x="14" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">6 视图路由</text>
+    </g>
+
+    <!-- Card 5: UI 库 -->
+    <g transform="translate(688 90)">
+      <rect x="0" y="0" width="152" height="100" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">UI LIB</text>
+      <text x="14" y="56" font-size="22" font-weight="700" fill="#EDE0CC">Vant 4</text>
+      <text x="14" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">移动端组件</text>
+    </g>
+
+    <!-- Card 6: HTTP -->
+    <g transform="translate(848 90)">
+      <rect x="0" y="0" width="152" height="100" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">HTTP</text>
+      <text x="14" y="56" font-size="22" font-weight="700" fill="#EDE0CC">Axios</text>
+      <text x="14" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">三层分离</text>
+    </g>
+
+    <!-- Card 7: 样式 -->
+    <g transform="translate(1008 90)">
+      <rect x="0" y="0" width="144" height="100" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">STYLE</text>
+      <text x="14" y="56" font-size="22" font-weight="700" fill="#EDE0CC">Sass</text>
+      <text x="14" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">+ Prettier</text>
+    </g>
+
+  </g>
+</svg>

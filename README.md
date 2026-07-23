@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.svg" alt="瑞鑫咖啡店管理系统 — Vue3 · Vite · Pinia · Vant 4 移动端项目封面" width="100%" />
+  <img src="./assets/readme/hero.svg" alt="瑞鑫咖啡店管理系统 - Vue3 · Vite · Pinia · Vant 4 移动端项目封面" width="100%" />
 </p>
 
 # 瑞鑫咖啡店管理系统
@@ -10,9 +10,9 @@
 
 ## 价值证明
 
-右侧 hero 中的咖啡杯与三张规格选择卡,正是 `/caidan` 菜单页的核心交互原型。下方两张表是真实落地的视图路由与 TabBar 配置,不是文案想象。
+上方 hero 中的咖啡杯与三张规格选择卡,正是 `/caidan` 菜单页的核心交互原型。下方三张 SVG 是真实落地的视图路由、页面架构与商品分类,不是文案想象。
 
-### 功能模块 · 6 视图路由
+### 6 视图路由
 
 <img src="./assets/readme/section-views.svg" alt="功能模块 6 视图路由可视化" width="100%" />
 
@@ -55,7 +55,11 @@
 
 ## 如何运作
 
-### 分层架构
+### 页面架构
+
+<img src="./assets/readme/page-architecture.svg" alt="页面架构:路由 / 视图 / 支撑层" width="100%" />
+
+### 分层结构
 
 ```
 src/
@@ -88,21 +92,17 @@ src/
 - **components**:仅放可复用 UI(`MyTabBar` + `icons`),视图不外提。
 - **api**:axios 实例 + 配置 + 请求封装三层分离,便于切接口环境。
 
+### 商品分类墙
+
+<img src="./assets/readme/product-categories.svg" alt="菜单页 6 大商品分类墙" width="100%" />
+
+菜单页按 6 大商品分类组织:咖啡为分类首推(主色填充),其余分类为常规卡片。价格区间为参考价,实际以菜单页为准。
+
 ### 点单流程
 
-```
-首页 /shouye  ──浏览推荐──▶  菜单 /caidan
-                              │
-                              │ 选规格(杯型/温度/甜度)
-                              │ 加入购物车
-                              ▼
-                          购物袋 /gouwudai
-                              │
-                              │ 调数量 · 算金额
-                              │ 提交订单
-                              ▼
-                          我的 /wode  (历史订单)
-```
+<img src="./assets/readme/order-flow.svg" alt="点单流程 5 步顾客动线" width="100%" />
+
+点单动线 5 步:浏览菜单 → 选规格(杯型/温度/甜度)→ 加入购物袋 → 提交订单 → 完成。其中选规格是核心交互(主色填充),下单与完成以松绿强调,呼应 hero 中的 spec card motif。
 
 ---
 
@@ -134,6 +134,8 @@ npm run lint
 
 ## 技术栈
 
+<img src="./assets/readme/tech-stack.svg" alt="技术栈 7 类选型分层" width="100%" />
+
 | 类别 | 选型 |
 | --- | --- |
 | 框架 | Vue 3.5 |
@@ -151,7 +153,7 @@ npm run lint
 
 ```
 ruixin-coffee-shop/
-├── src/                # 源码(见「如何运作」分层架构)
+├── src/                # 源码(见「页面架构」分层)
 ├── index.html
 ├── vite.config.js
 ├── package.json
@@ -161,6 +163,18 @@ ruixin-coffee-shop/
 
 ---
 
+## 设计令牌
+
+<img src="./assets/readme/design-tokens.svg" alt="设计令牌:颜色 / 字号 / 圆角" width="100%" />
+
+视觉系统沿用现有咖啡店菜单板配色:深咖啡棕黑画布 + 咖啡棕主色 + 松绿强调 + 暖白前景。瑞幸蓝(#0066B3)仅作为品牌识别令牌保留,实际页面以咖啡棕为主色。字号阶梯为 36/22/18/14/12,圆角阶梯为 26(画布)/14(卡片)/9(胶囊)。
+
+---
+
 ## License
+
+<p align="center">
+  <img src="./assets/readme/footer.svg" alt="README MADE WITH 签名与 MIT License" width="100%" />
+</p>
 
 MIT © liem

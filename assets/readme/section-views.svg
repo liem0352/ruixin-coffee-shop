@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" role="img" aria-labelledby="viewsTitle viewsDesc">
-  <title id="viewsTitle">功能模块 — 6 视图路由</title>
+  <title id="viewsTitle">功能模块 - 6 视图路由</title>
   <desc id="viewsDesc">瑞鑫咖啡店管理系统六个核心视图路由可视化:首页 /shouye、菜单 /caidan、购物袋 /gouwudai、我的 /wode、Todo /todo、关于 /about。</desc>
 
   <!-- Canvas -->
@@ -24,7 +24,7 @@
       <text x="14" y="82" font-size="12" fill="#8B7E72">分类 · 详情 · 规格</text>
     </g>
 
-    <!-- Card 3: 购物袋 -->
+    <!-- Card 3: 购物袋 (松绿强调 - 下单终点) -->
     <g transform="translate(412 20)">
       <rect x="0" y="0" width="184" height="100" rx="14" fill="#1A1410" stroke="#4A9B6E" stroke-width="1"/>
       <text x="14" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#4A9B6E">/gouwudai</text>

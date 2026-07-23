@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" width="100%" role="img" aria-labelledby="footerTitle footerDesc">
+  <title id="footerTitle">README MADE WITH - MIT License</title>
+  <desc id="footerDesc">瑞鑫咖啡店管理系统 README 页脚签名:作者 liem、Vue 3.5 · Vite 6 · Vant 4 技术栈、MIT License。</desc>
+
+  <!-- Canvas -->
+  <rect x="0" y="0" width="1200" height="100" rx="14" fill="#2A1F17"/>
+
+  <!-- Top hairline -->
+  <rect x="48" y="24" width="1104" height="1" fill="#3A2A1F"/>
+
+  <!-- Left: signature -->
+  <g transform="translate(48 48)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#B8651B"/>
+    <text x="20" y="10" font-size="13" letter-spacing="2" fill="#B8651B">README MADE WITH</text>
+    <text x="0" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700" fill="#EDE0CC">瑞鑫咖啡店管理系统 · liem</text>
+  </g>
+
+  <!-- Center: tech badges -->
+  <g transform="translate(540 56)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <!-- Vue 3.5 -->
+    <rect x="0" y="0" width="92" height="24" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+    <text x="46" y="16" font-size="12" fill="#EDE0CC" text-anchor="middle">Vue 3.5</text>
+
+    <!-- Vite 6 -->
+    <rect x="100" y="0" width="84" height="24" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+    <text x="142" y="16" font-size="12" fill="#EDE0CC" text-anchor="middle">Vite 6</text>
+
+    <!-- Pinia -->
+    <rect x="192" y="0" width="76" height="24" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+    <text x="230" y="16" font-size="12" fill="#EDE0CC" text-anchor="middle">Pinia</text>
+
+    <!-- Vant 4 -->
+    <rect x="276" y="0" width="88" height="24" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+    <text x="320" y="16" font-size="12" fill="#EDE0CC" text-anchor="middle">Vant 4</text>
+  </g>
+
+  <!-- Right: License -->
+  <g transform="translate(1152 48)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <!-- License badge with accent green -->
+    <rect x="-86" y="0" width="86" height="40" rx="12" fill="#1A1410" stroke="#4A9B6E" stroke-width="1"/>
+    <text x="-43" y="16" font-size="10" letter-spacing="1" fill="#4A9B6E" text-anchor="middle">LICENSE</text>
+    <text x="-43" y="32" font-size="14" font-weight="700" fill="#EDE0CC" text-anchor="middle">MIT</text>
+  </g>
+</svg>

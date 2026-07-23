@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-labelledby="catTitle catDesc">
+  <title id="catTitle">商品分类墙 - 6 类商品分组</title>
+  <desc id="catDesc">瑞鑫咖啡店管理系统商品分类墙:咖啡 / 茶饮 / 瑞纳冰 / 甜品 / 轻食 / 瓶装。每张分类卡含分类名、典型商品与价格区间,呼应菜单页分类浏览。</desc>
+
+  <!-- Canvas -->
+  <rect x="0" y="0" width="1200" height="320" rx="14" fill="#2A1F17"/>
+
+  <!-- Header -->
+  <text x="48" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#B8651B">PRODUCT CATEGORIES</text>
+  <text x="48" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#EDE0CC">菜单页 6 大商品分类</text>
+
+  <!-- 3x2 grid: 6 cards, 350w x 80h, gap 16, padding 48 -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+    <!-- Card 1: 咖啡 (主推, 主色填充) -->
+    <g transform="translate(48 100)">
+      <rect x="0" y="0" width="350" height="80" rx="12" fill="#B8651B" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#1A1410">COFFEE</text>
+      <text x="14" y="48" font-size="20" font-weight="700" fill="#1A1410">咖啡</text>
+      <text x="14" y="68" font-size="12" fill="#2A1F17">美式 · 拿铁 · 卡布 · 摩卡</text>
+      <text x="320" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#2A1F17" text-anchor="end">¥18-32</text>
+    </g>
+
+    <!-- Card 2: 茶饮 -->
+    <g transform="translate(410 100)">
+      <rect x="0" y="0" width="350" height="80" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#4A9B6E">TEA</text>
+      <text x="14" y="48" font-size="20" font-weight="700" fill="#EDE0CC">茶饮</text>
+      <text x="14" y="68" font-size="12" fill="#8B7E72">乌龙 · 抹茶 · 茉莉 · 果茶</text>
+      <text x="320" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72" text-anchor="end">¥16-28</text>
+    </g>
+
+    <!-- Card 3: 瑞纳冰 -->
+    <g transform="translate(772 100)">
+      <rect x="0" y="0" width="350" height="80" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">FRAPPE</text>
+      <text x="14" y="48" font-size="20" font-weight="700" fill="#EDE0CC">瑞纳冰</text>
+      <text x="14" y="68" font-size="12" fill="#8B7E72">咖啡冰 · 抹茶冰 · 芒果冰</text>
+      <text x="320" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72" text-anchor="end">¥22-34</text>
+    </g>
+
+    <!-- Card 4: 甜品 -->
+    <g transform="translate(48 196)">
+      <rect x="0" y="0" width="350" height="80" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">DESSERT</text>
+      <text x="14" y="48" font-size="20" font-weight="700" fill="#EDE0CC">甜品</text>
+      <text x="14" y="68" font-size="12" fill="#8B7E72">提拉米苏 · 芝士 · 千层</text>
+      <text x="320" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72" text-anchor="end">¥15-28</text>
+    </g>
+
+    <!-- Card 5: 轻食 -->
+    <g transform="translate(410 196)">
+      <rect x="0" y="0" width="350" height="80" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">LIGHT FOOD</text>
+      <text x="14" y="48" font-size="20" font-weight="700" fill="#EDE0CC">轻食</text>
+      <text x="14" y="68" font-size="12" fill="#8B7E72">三明治 · 沙拉 · 贝果</text>
+      <text x="320" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72" text-anchor="end">¥20-38</text>
+    </g>
+
+    <!-- Card 6: 瓶装 -->
+    <g transform="translate(772 196)">
+      <rect x="0" y="0" width="350" height="80" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#B8651B">BOTTLED</text>
+      <text x="14" y="48" font-size="20" font-weight="700" fill="#EDE0CC">瓶装</text>
+      <text x="14" y="68" font-size="12" fill="#8B7E72">气泡水 · 果汁 · 即饮咖啡</text>
+      <text x="320" y="68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72" text-anchor="end">¥10-22</text>
+    </g>
+
+  </g>
+
+  <!-- Footer note -->
+  <text x="48" y="304" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">咖啡为分类首推主色填充 · 价格区间为参考价 · 实际以菜单页为准</text>
+</svg>

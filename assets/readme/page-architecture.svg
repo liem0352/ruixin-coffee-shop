@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" role="img" aria-labelledby="archTitle archDesc">
+  <title id="archTitle">页面架构 - 路由 / 视图 / 支撑层</title>
+  <desc id="archDesc">瑞鑫咖啡店管理系统页面架构。左侧 router/index.js 注册 6 条路由;中间 4 个 TabBar 入口(首页/菜单/购物袋/我的)+ 2 个非 TabBar 入口(Todo/关于);右侧 stores/api/components 三层支撑。</desc>
+
+  <!-- Canvas -->
+  <rect x="0" y="0" width="1200" height="320" rx="14" fill="#2A1F17"/>
+
+  <!-- Header line -->
+  <text x="48" y="36" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#B8651B">PAGE ARCHITECTURE</text>
+  <text x="48" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#EDE0CC">6 视图 · 4 TabBar + 2 非 TabBar</text>
+
+  <!-- Column 1: router/index.js -->
+  <g transform="translate(48 90)">
+    <rect x="0" y="0" width="220" height="200" rx="12" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+    <text x="14" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8B7E72">router/index.js</text>
+    <line x1="14" y1="34" x2="206" y2="34" stroke="#4A3A2A" stroke-width="1"/>
+    <text x="14" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#EDE0CC">routes: [</text>
+    <text x="14" y="78" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8B7E72">  /shouye</text>
+    <text x="14" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8B7E72">  /caidan</text>
+    <text x="14" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8B7E72">  /gouwudai</text>
+    <text x="14" y="132" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8B7E72">  /wode</text>
+    <text x="14" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8B7E72">  /todo</text>
+    <text x="14" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#8B7E72">  /about</text>
+    <text x="14" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#EDE0CC">]</text>
+  </g>
+
+  <!-- Arrow from router to views -->
+  <g stroke="#4A3A2A" stroke-width="1" fill="none">
+    <line x1="268" y1="190" x2="306" y2="190"/>
+    <polyline points="300,184 312,190 300,196"/>
+  </g>
+
+  <!-- Column 2: Views (2x3 grid) -->
+  <g transform="translate(316 90)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <!-- Section label: TabBar views -->
+    <text x="0" y="0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#8B7E72">TABBAR · 4</text>
+
+    <!-- View 1: 首页 -->
+    <g transform="translate(0 12)">
+      <rect x="0" y="0" width="160" height="56" rx="10" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="12" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#B8651B">/shouye</text>
+      <text x="12" y="42" font-size="15" font-weight="600" fill="#EDE0CC">首页</text>
+    </g>
+
+    <!-- View 2: 菜单 -->
+    <g transform="translate(168 12)">
+      <rect x="0" y="0" width="160" height="56" rx="10" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="12" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#B8651B">/caidan</text>
+      <text x="12" y="42" font-size="15" font-weight="600" fill="#EDE0CC">菜单</text>
+    </g>
+
+    <!-- View 3: 购物袋 -->
+    <g transform="translate(0 76)">
+      <rect x="0" y="0" width="160" height="56" rx="10" fill="#1A1410" stroke="#4A9B6E" stroke-width="1"/>
+      <text x="12" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#4A9B6E">/gouwudai</text>
+      <text x="12" y="42" font-size="15" font-weight="600" fill="#EDE0CC">购物袋</text>
+    </g>
+
+    <!-- View 4: 我的 -->
+    <g transform="translate(168 76)">
+      <rect x="0" y="0" width="160" height="56" rx="10" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="12" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#B8651B">/wode</text>
+      <text x="12" y="42" font-size="15" font-weight="600" fill="#EDE0CC">我的</text>
+    </g>
+
+    <!-- Section label: non-TabBar views -->
+    <text x="0" y="152" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#8B7E72">NON-TABBAR · 2</text>
+
+    <!-- View 5: Todo -->
+    <g transform="translate(0 164)">
+      <rect x="0" y="0" width="160" height="56" rx="10" fill="#2A1F17" stroke="#3A2A1F" stroke-width="1" stroke-dasharray="4 3"/>
+      <text x="12" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#B8651B">/todo</text>
+      <text x="12" y="42" font-size="15" font-weight="600" fill="#EDE0CC">Todo</text>
+    </g>
+
+    <!-- View 6: 关于 -->
+    <g transform="translate(168 164)">
+      <rect x="0" y="0" width="160" height="56" rx="10" fill="#2A1F17" stroke="#3A2A1F" stroke-width="1" stroke-dasharray="4 3"/>
+      <text x="12" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#B8651B">/about</text>
+      <text x="12" y="42" font-size="15" font-weight="600" fill="#EDE0CC">关于</text>
+    </g>
+  </g>
+
+  <!-- Arrow from views to support layer -->
+  <g stroke="#4A3A2A" stroke-width="1" fill="none">
+    <line x1="652" y1="190" x2="690" y2="190"/>
+    <polyline points="684,184 696,190 684,196"/>
+  </g>
+
+  <!-- Column 3: Support layer -->
+  <g transform="translate(700 90)">
+    <text x="0" y="0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1" fill="#8B7E72">SUPPORT · 3</text>
+
+    <!-- stores/ -->
+    <g transform="translate(0 12)">
+      <rect x="0" y="0" width="200" height="56" rx="10" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="12" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">stores/</text>
+      <text x="12" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#EDE0CC">counter.js · Pinia</text>
+    </g>
+
+    <!-- api/ -->
+    <g transform="translate(0 76)">
+      <rect x="0" y="0" width="200" height="56" rx="10" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="12" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">api/</text>
+      <text x="12" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#EDE0CC">axios · config · req</text>
+    </g>
+
+    <!-- components/ -->
+    <g transform="translate(0 140)">
+      <rect x="0" y="0" width="200" height="56" rx="10" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="12" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">components/</text>
+      <text x="12" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#EDE0CC">MyTabBar · icons</text>
+    </g>
+  </g>
+
+  <!-- Footer note -->
+  <text x="48" y="304" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B7E72">虚线 = 非 TabBar 入口 · 实线 = TabBar 一级入口 · 箭头 = 调用方向</text>
+</svg>
