@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" role="img" aria-labelledby="viewsTitle viewsDesc">
+  <title id="viewsTitle">功能模块 — 6 视图路由</title>
+  <desc id="viewsDesc">瑞鑫咖啡店管理系统六个核心视图路由可视化:首页 /shouye、菜单 /caidan、购物袋 /gouwudai、我的 /wode、Todo /todo、关于 /about。</desc>
+
+  <!-- Canvas -->
+  <rect x="0" y="0" width="1200" height="140" rx="14" fill="#2A1F17"/>
+
+  <!-- 6 view cards, 184w x 100h, gap 8, padding 28 -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+    <!-- Card 1: 首页 -->
+    <g transform="translate(28 20)">
+      <rect x="0" y="0" width="184" height="100" rx="14" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#B8651B">/shouye</text>
+      <text x="14" y="58" font-size="20" font-weight="700" fill="#EDE0CC">首页</text>
+      <text x="14" y="82" font-size="12" fill="#8B7E72">推荐 · 热门 · Banner</text>
+    </g>
+
+    <!-- Card 2: 菜单 -->
+    <g transform="translate(220 20)">
+      <rect x="0" y="0" width="184" height="100" rx="14" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#B8651B">/caidan</text>
+      <text x="14" y="58" font-size="20" font-weight="700" fill="#EDE0CC">菜单</text>
+      <text x="14" y="82" font-size="12" fill="#8B7E72">分类 · 详情 · 规格</text>
+    </g>
+
+    <!-- Card 3: 购物袋 -->
+    <g transform="translate(412 20)">
+      <rect x="0" y="0" width="184" height="100" rx="14" fill="#1A1410" stroke="#4A9B6E" stroke-width="1"/>
+      <text x="14" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#4A9B6E">/gouwudai</text>
+      <text x="14" y="58" font-size="20" font-weight="700" fill="#EDE0CC">购物袋</text>
+      <text x="14" y="82" font-size="12" fill="#8B7E72">数量 · 金额 · 下单</text>
+    </g>
+
+    <!-- Card 4: 我的 -->
+    <g transform="translate(604 20)">
+      <rect x="0" y="0" width="184" height="100" rx="14" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#B8651B">/wode</text>
+      <text x="14" y="58" font-size="20" font-weight="700" fill="#EDE0CC">我的</text>
+      <text x="14" y="82" font-size="12" fill="#8B7E72">用户 · 订单 · 设置</text>
+    </g>
+
+    <!-- Card 5: Todo -->
+    <g transform="translate(796 20)">
+      <rect x="0" y="0" width="184" height="100" rx="14" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#B8651B">/todo</text>
+      <text x="14" y="58" font-size="20" font-weight="700" fill="#EDE0CC">Todo</text>
+      <text x="14" y="82" font-size="12" fill="#8B7E72">任务 · 状态 · 分类</text>
+    </g>
+
+    <!-- Card 6: 关于 -->
+    <g transform="translate(988 20)">
+      <rect x="0" y="0" width="184" height="100" rx="14" fill="#1A1410" stroke="#4A3A2A" stroke-width="1"/>
+      <text x="14" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#B8651B">/about</text>
+      <text x="14" y="58" font-size="20" font-weight="700" fill="#EDE0CC">关于</text>
+      <text x="14" y="82" font-size="12" fill="#8B7E72">介绍 · 版本信息</text>
+    </g>
+
+  </g>
+</svg>
